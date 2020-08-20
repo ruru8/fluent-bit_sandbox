@@ -9,7 +9,7 @@ $ docker build -t self-fluent-bit .
 ## 実行
 
 ```zsh
-$ docker run -p 127.0.0.1:24224:24224 self-fluent-bit:latest /fluent-bit/bin/fluent-bit -c fluent-bit.conf
+$ docker run self-fluent-bit:latest /fluent-bit/bin/fluent-bit -c fluent-bit.conf
 
 Fluent Bit v1.5.2
 * Copyright (C) 2019-2020 The Fluent Bit Authors
@@ -48,7 +48,7 @@ Fluent Bit v1.5.2
 
 ```zsh
 $ docker build -t self-fluent-bit .
-$ docker run -p 127.0.0.1:24224:24224 self-fluent-bit:latest /fluent-bit/bin/fluent-bit -c fluent-bit.conf
+$ docker run self-fluent-bit:latest /fluent-bit/bin/fluent-bit -c fluent-bit.conf
 
 Fluent Bit v1.5.2
 * Copyright (C) 2019-2020 The Fluent Bit Authors
